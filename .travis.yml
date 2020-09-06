@@ -20,7 +20,6 @@ before_install:
 before_deploy:
   - zip -r freelec-springboot2-webservice *
   - mkdir -p deploy
-  - chmod +x deploy
   - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
 
 deploy:
